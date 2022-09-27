@@ -1,0 +1,1 @@
+web: java-0server.port=$PORT -jar target/GestionFinanciera-0.0.1-SNAPSHOT.jar
