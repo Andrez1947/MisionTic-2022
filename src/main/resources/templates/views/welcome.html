@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+<head>
+    <meta charset="UTF-8">
+    <title>Papas Matt</title>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+</head>
+<body class="img js-full-height text-center" style="background-image: url(images/welcome.jpg)">
+<header th:replace="plantilla/template :: header"></header>
+                <div class="container py-5 h-100">
+                    <div class="row d-flex justify-content-center align-items-center h-100">
+                        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                            <div class="card bg-dark text-white" style="card" >
+                                <h3 class="masthead-brand"><img src="images/log.png" style= "height: 100px"></h3>
+                                <div class="card-body p-4 text-center" >
+                                    <div class="mb-md-5 mt-md-4 pb-5" >
+                                        <h1 class="cover-heading text-white text-center">¡Bienvenidos a
+                                            Papas Matt!</h1>
+                                        <p class="lead text-white text-center" > ¡Acá cocinamos con un amor brutal!
+                                            A cada plato le entregamos el alma.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <footer th:replace="plantilla/template :: footer"></footer>
+
+</body>
+
+</html>
